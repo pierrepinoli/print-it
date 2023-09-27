@@ -126,6 +126,9 @@ header {
 #banner .arrow {
 	position: absolute;
 }
+#banner .arrow:hover {
+	cursor: pointer;
+}
 #banner .arrow_left {
 	left: 10px;
 }
@@ -137,6 +140,9 @@ header {
 	position: absolute;
 	bottom: 40px;
 	display: flex;
+}
+.dots:hover {
+	cursor: pointer;
 }
 .dot {
 	margin-inline: 5px;

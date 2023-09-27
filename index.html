@@ -8,6 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@400;900&display=swap" rel="stylesheet">
+	<script src="./assets/script.js"></script>
 </head>
 <body>
 <header class="container">
@@ -18,11 +19,15 @@
 </header>
 <main>
 	<div id="banner">
-		<img class="banner-img" src="./assets/images/slideshow/slide1.jpg" alt="Banner Print-it">
-		<p>Impressions tous formats <span>en boutique et en ligne</span></p>
-			<img class="arrow_right arrow" src="./assets/images/arrow_right.png" alt="flèche droite"></img>
-			<img class="arrow_left arrow" src="./assets/images/arrow_left.png" alt="flèche gauche"></img>
+		<img id="image" class="banner-img" src="./assets/images/slideshow/slide1.jpg" alt="Banner Print-it">
+		<p id="tagLine">Impressions tous formats <span>en boutique et en ligne</span></p>
+			<img id="arrow_btn_right" class="arrow_right arrow" src="./assets/images/arrow_right.png" alt="flèche droite"></img>
+			<img id="arrow_btn_left" class="arrow_left arrow" src="./assets/images/arrow_left.png" alt="flèche gauche"></img>
 		<div class="dots">
+			<div id="dot_selected_image" class="dot"></div>
+			<div id="dot_selected_image" class="dot"></div>
+			<div id="dot_selected_image" class="dot"></div>
+			<div id="dot_selected_image" class="dot"></div>
 		</div>
 	</div>
 	<section id="about-us" class="container">
