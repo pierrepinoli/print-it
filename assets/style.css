@@ -141,9 +141,6 @@ header {
 	bottom: 40px;
 	display: flex;
 }
-.dots:hover {
-	cursor: pointer;
-}
 .dot {
 	margin-inline: 5px;
 	width: 13px;
