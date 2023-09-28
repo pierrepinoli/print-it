@@ -14,7 +14,7 @@ const slides = [
 	{
 		"image": "slide4.png",
 		"tagLine": "Autocollants <span>avec découpe laser sur mesure</span>",
-	}
+	},
 ];
 
 //CONSTANTES
@@ -76,7 +76,7 @@ ArrowBtnLeft.addEventListener("click", function () {
 	allDots[slideCourant].classList.remove("dot_selected");
 
 	if (slideCourant === 0) {
-		slideCourant = 3;
+		slideCourant = lastSlide;
 		} else {
 			slideCourant--;
 			console.log(slideCourant)
